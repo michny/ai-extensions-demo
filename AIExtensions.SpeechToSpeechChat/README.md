@@ -1,6 +1,10 @@
-# AI Extensions Demo
+# AI Extensions Speech-to-Speech Chat
 
-This demo is just a sample application used to play around with the new Microsoft AI Extensions package.
+This demo is an attempt at creating a conversational chat where the input and output are both speech. 
+
+- The input speech is transformed to text using a `whisper` model
+- The answer to the input is generated via a chat model such as `gpt-4o-mini`
+- The output is converted to speech using an Azure Speech Service resource
 
 ## Running the App
 
