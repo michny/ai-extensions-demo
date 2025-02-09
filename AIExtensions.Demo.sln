@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35731.43 d17.13
+VisualStudioVersion = 17.13.35731.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIExtensions.Demo", "AIExtensions.Demo\AIExtensions.Demo.csproj", "{6487C1EA-A141-4CD4-B7FE-0E40BA8DC7C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIExtensions.SpeechToSpeechChat", "AIExtensions.SpeechToSpeechChat\AIExtensions.SpeechToSpeechChat.csproj", "{730EA050-A137-4CA3-B38B-C0A2C29DB061}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6487C1EA-A141-4CD4-B7FE-0E40BA8DC7C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6487C1EA-A141-4CD4-B7FE-0E40BA8DC7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6487C1EA-A141-4CD4-B7FE-0E40BA8DC7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6487C1EA-A141-4CD4-B7FE-0E40BA8DC7C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{730EA050-A137-4CA3-B38B-C0A2C29DB061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730EA050-A137-4CA3-B38B-C0A2C29DB061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730EA050-A137-4CA3-B38B-C0A2C29DB061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730EA050-A137-4CA3-B38B-C0A2C29DB061}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
