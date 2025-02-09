@@ -19,4 +19,10 @@
     <PackageReference Include="System.Windows.Extensions" Version="9.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Assets\wikipediaOcelot.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
