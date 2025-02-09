@@ -1,7 +1,6 @@
 ﻿using Microsoft.Extensions.AI;
-using Azure.Identity;
+// using Azure.Identity;
 using Azure.AI.OpenAI;
-
 
 var aiKey = SecretsProvider.GetSecret("AzureAIKey");
 var aiEndpoint = SecretsProvider.GetSecret("AzureAIEndpoint");
@@ -12,11 +11,11 @@ var chatModelName = "gpt-4o-mini";
 IChatClient client = new AzureOpenAIClient(new Uri(aiEndpoint), new System.ClientModel.ApiKeyCredential(aiKey))
     .AsChatClient(chatModelName);
 
-ChatMessage prompt = new(ChatRole.System, "You are a helpful, yet cheeky AI assistant. All your responses must be phrased as Yoda from Star Wars would do.");
+ChatMessage prompt = new(ChatRole.System, "Du er en hjælpsom AI assistent. Du skal formulere dine svar som Yoda fra Star Wars ville gøre.");
 List<ChatMessage> conversation = [ prompt ];
 
-var text = await SpeechToText.RecognizeSpeechAsync();
-Console.WriteLine("You said: " + text);
+// var text = await SpeechToText.RecognizeSpeechAsync();
+// Console.WriteLine("You said: " + text);
 
 Console.WriteLine("Ask a question to the AI.");
 while(true) 
